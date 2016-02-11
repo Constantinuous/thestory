@@ -3,7 +3,7 @@ Type=TeXnicCenterProjectInformation
 Version=4
 
 [ProjectInfo]
-MainFile=SE.tex
+MainFile=src\SE.tex
 UseBibTeX=0
 UseMakeIndex=0
 ActiveProfile=LaTeX ⇨ PDF
