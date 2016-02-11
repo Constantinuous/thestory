@@ -1,0 +1,9 @@
+*.aux
+*.bbl
+*.blg
+*.out
+src/SE.pdf
+*.xml
+*.synctex
+*.toc
+src/SE-blx.bib
