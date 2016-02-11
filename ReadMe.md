@@ -9,14 +9,14 @@ Usage
 * This is a Story in the Latex Format
 * Open SE.tcp with an Editor (TeXnicCenter on Windows)
 * Top tex file is src/SE.tex
-* Convert it to pdf by building it with Latex(MikTex on Windows)
+* Convert it to pdf by building it with Latex (MikTex on Windows)
 
 Build
 -------------------------------------
 
-* Build with Latex/Pdftex
+* Build with Pdftex
 * Build with Bibtex for the bibliography
-* Build with Latex/PdfTex again, now it knows about the bibliography entries.
+* Build with PdfTex again (now it knows about the bibliography entries)
 * Open resulting pdf in src/SE.pdf (on Windows with SumatraPdf)
 
 Requirements

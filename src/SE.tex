@@ -26,6 +26,8 @@
 \usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
 \usepackage{wrapfig} % Allows in-line images such as the example fish picture
 
+\usepackage{csvsimple} % Import CSV Files
+
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{hyperref}
 
@@ -135,6 +137,14 @@ Test here:
 \lipsum[4] % Dummy text
 
 %----------------------------------------------------------------------------------------
+%	HISTORY
+%----------------------------------------------------------------------------------------
+
+\section{History} % Major section
+
+\input{Chapters/History.tex}
+
+%----------------------------------------------------------------------------------------
 %	MAJOR SECTION 1
 %----------------------------------------------------------------------------------------
 
@@ -145,6 +155,14 @@ Test here:
 \input{Chapters/Scrum.tex}
 
 \input{Chapters/Kanban.tex}
+
+%----------------------------------------------------------------------------------------
+%	MAJOR SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Patterns} % 
+
+\input{Chapters/Patterns.tex}
 
 %------------------------------------------------
 \section{Three}
