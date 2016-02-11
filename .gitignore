@@ -7,3 +7,6 @@ src/SE.pdf
 *.synctex
 *.toc
 src/SE-blx.bib
+*.glo
+*.glsdefs
+*.xdy

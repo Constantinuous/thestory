@@ -32,6 +32,9 @@
 \usepackage{csquotes}
 \usepackage[backend=bibtex]{biblatex}
 
+\usepackage[xindy,toc]{glossaries}
+\input{bib/glossary.tex}
+\makeglossaries
 
 \bibliography{bib/lit} 
 
@@ -83,6 +86,8 @@ Dr. James \textsc{Foo} % Supervisor's Name
 
 \end{titlepage}
 
+
+
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
@@ -109,13 +114,7 @@ Also there is \cite{bworld}.
 
 Test here:
 \input{Chapters/Bar.tex}
-: and here
-
-%------------------------------------------------
-
-\subsection{Subsection 2} % Sub-section
-
-\lipsum[2] % Dummy text
+: and here and \gls{computer}
 
 %------------------------------------------------
 
@@ -139,12 +138,16 @@ Test here:
 %	MAJOR SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Content Section} % Major section
+\section{Development Methodology} % Major section
 
-\lipsum[5] % Dummy text
+\input{Chapters/ProcessControl.tex}
+
+\input{Chapters/Scrum.tex}
+
+\input{Chapters/Kanban.tex}
 
 %------------------------------------------------
-
+\section{Three}
 \subsection{Subsection 1} % Sub-section
 
 \subsubsection{Subsubsection 1} % Sub-sub-section
@@ -211,5 +214,9 @@ Test here:
 \printbibliography 
 
 %----------------------------------------------------------------------------------------
+%	GLOSSARY
+%----------------------------------------------------------------------------------------
+\printglossaries
 
+%----------------------------------------------------------------------------------------
 \end{document}

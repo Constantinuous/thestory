@@ -18,3 +18,7 @@ Build
 * Build with Bibtex for the bibliography
 * Build with Latex/PdfTex again, now it knows about the bibliography entries.
 * Open resulting pdf in src/SE.pdf (on Windows with SumatraPdf)
+
+Requirements
+-------------------------------------
+* \makeglossaries require Perl — this is not normally present by default on Microsoft Windows platforms. 
